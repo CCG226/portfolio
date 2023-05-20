@@ -8,6 +8,21 @@
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
   width: 240px;
   z-index: 600;
+  border-right: 4px solid; /* Adjust the border color as needed */
+  --angle: 0deg;
+  border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #672078) 1;
+  animation: 10s rotate linear infinite;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
 }
 
 @media (max-width: 991.98px) {

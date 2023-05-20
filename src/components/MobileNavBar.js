@@ -6,9 +6,9 @@ function MobileNavBar() {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand">
+        <div className="navbar-brand">
           <Logo height={"5em"} />
-        </a>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,11 +22,20 @@ function MobileNavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link fs-1 text-light" href="#">
-              Test
+            <a id="tab" className="nav-link fs-4 fw-bold text-light" href="#">
+              About
             </a>
-            <a className="nav-link fs-1 text-light" href="#">
-              Test
+            <a id="tab" className="nav-link fs-4 fw-bold  text-light" href="#">
+              Projects
+            </a>
+            <a id="tab" className="nav-link fs-4 fw-bold  text-light" href="#">
+              Education
+            </a>
+            <a id="tab" className="nav-link fs-4 fw-bold  text-light" href="#">
+              Experience
+            </a>
+            <a id="tab" className="nav-link fs-4 fw-bold  text-light" href="#">
+              Contact & Info
             </a>
           </div>
         </div>

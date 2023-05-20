@@ -1,16 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Lobster+Two:ital@1&family=Noto+Serif+Lao:wght@700&family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,300&family=Roboto:wght@500&family=Rubik:wght@400;500;700&display=swap");
+* {
+  font-family: Roboto;
+}
+.line {
+  width: 20%;
+  height: 4px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+#startBTN {
+  color: #b22ad3;
+  border-width: 5px;
+  height: 3em;
+  width: 7em;
+  font-size: 1em;
+  --angle: 0deg;
+  border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #672078) 1;
+  animation: 10s rotate linear infinite;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+#startBTN:hover {
+  opacity: 1;
+  border-radius: 2px;
+  box-shadow: 0 0 1px 3px #b22ad3;
+  color: #672078;
+  font-size: 1.1em;
+  border-image: linear-gradient(0deg, #12c2e9, #c471ed, #672078) 1;
+}
 .App {
   text-align: center;
 }
-
+#tab {
+  color: #b22ad3 !important;
+}
+#tab:hover {
+  color: #672078 !important;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -26,13 +64,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -29,7 +29,16 @@ function App() {
     <div className="App">
       {isMobile ? <MobileNavBar /> : <SideNavBar />}
       <header className="App-header">
-        <button className="btn btn-primary">Click me</button>
+        <div className="display-1 fw-bold">Connor Gilmore,</div>
+        <div className="display-4 fw-bold">
+          An Entry-Level Software Engineer
+        </div>
+        <div>&nbsp;</div>
+        <div className="line"></div>
+        <div>&nbsp;</div>
+        <button id="startBTN" className="btn fw-bold btn-lg">
+          Begin
+        </button>
       </header>
     </div>
   );
