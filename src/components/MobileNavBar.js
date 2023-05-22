@@ -22,19 +22,39 @@ function MobileNavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a id="tab" className="nav-link fs-4 fw-bold text-light" href="#">
+            <a
+              id="tab"
+              className="nav-link fs-4 fw-bold text-light"
+              href="#about"
+            >
               About
             </a>
-            <a id="tab" className="nav-link fs-4 fw-bold  text-light" href="#">
+            <a
+              id="tab"
+              className="nav-link fs-4 fw-bold  text-light"
+              href="#projects"
+            >
               Projects
             </a>
-            <a id="tab" className="nav-link fs-4 fw-bold  text-light" href="#">
+            <a
+              id="tab"
+              className="nav-link fs-4 fw-bold  text-light"
+              href="#education"
+            >
               Education
             </a>
-            <a id="tab" className="nav-link fs-4 fw-bold  text-light" href="#">
+            <a
+              id="tab"
+              className="nav-link fs-4 fw-bold  text-light"
+              href="#experience"
+            >
               Experience
             </a>
-            <a id="tab" className="nav-link fs-4 fw-bold  text-light" href="#">
+            <a
+              id="tab"
+              className="nav-link fs-4 fw-bold  text-light"
+              href="#contacts"
+            >
               Contact & Info
             </a>
           </div>

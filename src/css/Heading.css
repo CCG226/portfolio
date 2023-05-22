@@ -1,15 +1,11 @@
-.line {
-  width: 20%;
-  height: 4px;
-  background-color: #ffffff;
-  margin: 0 auto;
-}
+
 #startBTN {
   color: #b22ad3;
   border-width: 5px;
   height: 3em;
   width: 7em;
   font-size: 1em;
+  padding-top: 5px;
   --angle: 0deg;
   border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #672078) 1;
   animation: 10s rotate linear infinite;
@@ -22,4 +18,31 @@
   color: #672078;
   font-size: 1.1em;
   border-image: linear-gradient(0deg, #12c2e9, #c471ed, #672078) 1;
+}
+@media (min-width: 576px) {
+  /* Phones*/
+  #startBTN {
+    padding-top: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* tablets*/
+  #startBTN {
+    padding-top: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Laptops*/
+  #startBTN {
+    padding-top: 15px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* desktop*/
+  #startBTN {
+    padding-top: 15px;
+  }
 }

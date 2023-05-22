@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import SideNavBar from "./components/SideNavBar";
 import MobileNavBar from "./components/MobileNavBar";
 import Heading from "./components/Heading";
+import About from "./components/About";
 import React from "react";
 import { useState, useEffect } from "react";
 
@@ -31,6 +32,9 @@ function App() {
       <header className="App-header">
         <Heading />
       </header>
+      <section id="about">
+        <About />
+      </section>
     </div>
   );
 }

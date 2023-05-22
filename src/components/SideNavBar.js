@@ -15,21 +15,21 @@ function SideNavBar() {
           <a
             id="tab"
             className="fs-4 fw-bold text-decoration-none mb-3"
-            href="#"
+            href="#about"
           >
             About
           </a>
           <a
             id="tab"
             className="fs-4 fw-bold text-decoration-none mb-3"
-            href="#"
+            href="#projects"
           >
             Projects
           </a>
           <a
             id="tab"
             className="fs-4 fw-bold text-decoration-none mb-3"
-            href="#"
+            href="#education"
           >
             Education
           </a>
@@ -37,7 +37,7 @@ function SideNavBar() {
           <a
             id="tab"
             className="fs-4 fw-bold text-decoration-none mb-3"
-            href="#"
+            href="#experience"
           >
             Experience
           </a>
@@ -45,7 +45,7 @@ function SideNavBar() {
           <a
             id="tab"
             className="fs-4 fw-bold text-decoration-none mb-3"
-            href="#"
+            href="#contacts"
           >
             Contact & Info
           </a>

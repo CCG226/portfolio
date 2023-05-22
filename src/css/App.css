@@ -2,7 +2,12 @@
 * {
   font-family: Roboto;
 }
-
+.line {
+  width: 20%;
+  height: 4px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
 .App {
   text-align: center;
 }
@@ -27,7 +32,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #181818;
+}
 .App-link {
   color: #61dafb;
 }
