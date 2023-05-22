@@ -9,6 +9,7 @@
   width: 240px;
   z-index: 600;
   border-right: 4px solid; /* Adjust the border color as needed */
+  border-bottom: 0px solid;
   --angle: 0deg;
   border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #672078) 1;
   animation: 10s rotate linear infinite;

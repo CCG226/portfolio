@@ -1,0 +1,25 @@
+.line {
+  width: 20%;
+  height: 4px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+#startBTN {
+  color: #b22ad3;
+  border-width: 5px;
+  height: 3em;
+  width: 7em;
+  font-size: 1em;
+  --angle: 0deg;
+  border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #672078) 1;
+  animation: 10s rotate linear infinite;
+}
+
+#startBTN:hover {
+  opacity: 1;
+  border-radius: 2px;
+  box-shadow: 0 0 1px 3px #b22ad3;
+  color: #672078;
+  font-size: 1.1em;
+  border-image: linear-gradient(0deg, #12c2e9, #c471ed, #672078) 1;
+}
