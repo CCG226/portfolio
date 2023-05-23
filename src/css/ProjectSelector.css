@@ -1,0 +1,41 @@
+.selectorList {
+  position: unset;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 1em;
+}
+.unselected {
+  text-indent: 0;
+  width: 125%;
+  height: 100%;
+  border: 0px;
+  opacity: 1;
+  background-color: transparent;
+  box-shadow: 0 0 0px 1px black;
+  border-bottom: 5px solid #fff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.selected {
+  text-indent: 0;
+  width: 125%;
+  height: 100%;
+  border: 0px;
+  opacity: 1;
+  background-color: transparent;
+  box-shadow: 0 0 0px 1px black;
+  border-bottom: 5px solid #12c2e9;
+  color: #12c2e9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.material-symbols-outlined {
+  color: #fff;
+}
+.highlight {
+  color: #12c2e9;
+}

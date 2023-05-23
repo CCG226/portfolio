@@ -6,6 +6,7 @@ import SideNavBar from "./components/SideNavBar";
 import MobileNavBar from "./components/MobileNavBar";
 import Heading from "./components/Heading";
 import About from "./components/About";
+import Projects from "./components/Projects";
 import React from "react";
 import { useState, useEffect } from "react";
 
@@ -34,6 +35,9 @@ function App() {
       </header>
       <section id="about">
         <About />
+      </section>
+      <section id="projects">
+        <Projects />
       </section>
     </div>
   );
