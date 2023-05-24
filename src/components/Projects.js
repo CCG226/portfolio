@@ -22,9 +22,7 @@ function Projects() {
       <div className="line"></div>
       <div>&nbsp;</div>
       <div>&nbsp;</div>
-      <div>&nbsp;</div>
-      <div>&nbsp;</div>
-      <div>&nbsp;</div>
+
       <div className="container">
         <ProjectSelector func={(param) => swapProjectCard(param)} />
       </div>

@@ -1,4 +1,4 @@
-import logo from "../Images/logo.png";
+import logo from "../Images/portfolioLogo.png";
 function Logo({ height }) {
   const styles = {
     height: height,

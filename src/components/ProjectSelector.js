@@ -17,7 +17,7 @@ function ProjectSelector({ func }) {
         className={selectedButton === "0" ? "selected" : "unselected"}
         onClick={() => handleClick("0")}
       >
-        JournalWit
+        JournalWit (2023)
         <span
           className={
             selectedButton === "0"
@@ -33,7 +33,7 @@ function ProjectSelector({ func }) {
         type="button"
         onClick={() => handleClick("1")}
       >
-        GradeHelp{" "}
+        GradeHelp (2022)
         <span
           className={
             selectedButton === "1"
@@ -49,7 +49,7 @@ function ProjectSelector({ func }) {
         type="button"
         onClick={() => handleClick("2")}
       >
-        MyAiAid{" "}
+        MyAiAid (2023)
         <span
           className={
             selectedButton === "2"
@@ -65,7 +65,7 @@ function ProjectSelector({ func }) {
         type="button"
         onClick={() => handleClick("3")}
       >
-        Portfolio
+        Portfolio (2023)
         <span
           className={
             selectedButton === "3"
