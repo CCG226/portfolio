@@ -1,3 +1,10 @@
 * {
   color: #fff;
 }
+.container {
+  position: absolute;
+  left: -600px;
+}
+.content {
+  position: relative;
+}

@@ -1,15 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../css/Card.css";
-function Card() {
+
+function Card({ Desc, Image }) {
   return (
     <div className="card">
-      <img src="..." className="card-img-top" alt="..." />
+      <img src={Image} className="card-img-top" alt="project" />
       <div className="card-body">
-        <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
+        <p className="card-text">{Desc}</p>
       </div>
     </div>
   );

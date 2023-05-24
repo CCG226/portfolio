@@ -3,79 +3,77 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../css/ProjectSelector.css";
 import React from "react";
 import { useState } from "react";
-function ProjectSelector() {
-  const [selectedButton, setSelectedButton] = useState("");
-  const [selectedButtonIcon, setSelectedButtonIcon] = useState(
-    "material-symbols-outlined"
-  );
+function ProjectSelector({ func }) {
+  const [selectedButton, setSelectedButton] = useState("0");
+
   const handleClick = (btnNumber) => {
     setSelectedButton(btnNumber);
+    func(btnNumber);
   };
 
   return (
     <div className="selectorList">
       <button
-        className={selectedButton === "btn1" ? "selected" : "unselected"}
-        type="button"
-        onClick={() => handleClick("btn1")}
+        className={selectedButton === "0" ? "selected" : "unselected"}
+        onClick={() => handleClick("0")}
       >
-        JournalWit{" "}
+        JournalWit
         <span
           className={
-            selectedButton === "btn1"
+            selectedButton === "0"
               ? "material-symbols-outlined highlight"
               : "material-symbols-outlined"
           }
         >
-          star
+          auto_stories
         </span>
       </button>
       <button
-        className={selectedButton === "btn2" ? "selected" : "unselected"}
+        className={selectedButton === "1" ? "selected" : "unselected"}
         type="button"
-        onClick={() => handleClick("btn2")}
+        onClick={() => handleClick("1")}
       >
         GradeHelp{" "}
         <span
           className={
-            selectedButton === "btn2"
+            selectedButton === "1"
               ? "material-symbols-outlined highlight"
               : "material-symbols-outlined"
           }
         >
-          star
+          school
         </span>
       </button>
       <button
-        className={selectedButton === "btn3" ? "selected" : "unselected"}
+        className={selectedButton === "2" ? "selected" : "unselected"}
         type="button"
-        onClick={() => handleClick("btn3")}
+        onClick={() => handleClick("2")}
       >
         MyAiAid{" "}
         <span
           className={
-            selectedButton === "btn3"
+            selectedButton === "2"
               ? "material-symbols-outlined highlight"
               : "material-symbols-outlined"
           }
         >
-          star
+          robot
         </span>
       </button>
       <button
-        className={selectedButton === "btn4" ? "selected" : "unselected"}
+        className={selectedButton === "3" ? "selected" : "unselected"}
         type="button"
-        onClick={() => handleClick("btn4")}
+        onClick={() => handleClick("3")}
       >
-        Portfolio{" "}
+        Portfolio
         <span
           className={
-            selectedButton === "btn4"
+            selectedButton === "3"
               ? "material-symbols-outlined highlight"
               : "material-symbols-outlined"
           }
         >
-          star
+          person_pin
         </span>
       </button>
     </div>

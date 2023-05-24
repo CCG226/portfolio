@@ -1,4 +1,10 @@
 .card {
-  width: 18em;
-  height: 18em;
+  width: 23em;
+  height: 23em;
+  margin-left: 70%;
+
+  --angle: 0deg;
+  border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #672078) 1;
+  animation: 10s rotate linear infinite;
+  border-radius: 20px !important;
 }
