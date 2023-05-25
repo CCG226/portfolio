@@ -1,4 +1,3 @@
-
 #startBTN {
   color: #b22ad3;
   border-width: 5px;
@@ -19,15 +18,24 @@
   font-size: 1.1em;
   border-image: linear-gradient(0deg, #12c2e9, #c471ed, #672078) 1;
 }
+#career {
+  font-size: 25px;
+}
 @media (min-width: 576px) {
   /* Phones*/
   #startBTN {
     padding-top: 5px;
   }
+  #career {
+    font-size: 25px;
+  }
 }
 
 @media (min-width: 768px) {
   /* tablets*/
+  #career {
+    font-size: 40px;
+  }
   #startBTN {
     padding-top: 15px;
   }
@@ -36,7 +44,10 @@
 @media (min-width: 1200px) {
   /* Laptops*/
   #startBTN {
-    padding-top: 15px;
+    padding-top: 45px;
+  }
+  #career {
+    font-size: 45px;
   }
 }
 
@@ -44,5 +55,8 @@
   /* desktop*/
   #startBTN {
     padding-top: 15px;
+  }
+  #career {
+    font-size: 50px;
   }
 }

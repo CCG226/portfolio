@@ -1,7 +1,7 @@
 .card {
-  width: 22em;
-  height: 22em;
-  margin-left: 70%;
+  width: 15em;
+  height: 15em;
+  margin-left: 15%;
 
   --angle: 0deg;
   border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #672078) 1;
@@ -11,18 +11,17 @@
 .card-img-top:hover {
   box-shadow: 0 0 10px 1px #12c2e9;
 }
-.card:hover {
-}
+
 .project {
   position: relative;
 }
 .desc {
-  position: absolute;
+  position: relative;
   width: 100%;
-  right: -650px;
-  top: 0px;
-  font-size: 20px;
-  line-height: 2;
+  margin-top: 20%;
+  margin-left: 0%;
+  font-size: 13px;
+  line-height: 1.5;
 }
 .card-text {
   width: 100%;
@@ -30,4 +29,72 @@
   font-style: italic;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@media (min-width: 576px) {
+  /* Phones*/
+  .card {
+    width: 15em;
+    height: 15em;
+    margin-left: 15%;
+  }
+  .desc {
+    position: relative;
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 0%;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 768px) {
+  /* tablets*/
+  .card {
+    width: 18em;
+    height: 18em;
+    margin-left: 30%;
+  }
+  .desc {
+    position: relative;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Laptops*/
+  .card {
+    width: 20em;
+    height: 20em;
+    margin-left: 50%;
+  }
+  .desc {
+    position: relative;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* desktop*/
+  .card {
+    width: 22em;
+    height: 22em;
+    margin-left: 70%;
+  }
+  .desc {
+    position: absolute;
+    width: 100%;
+    right: -650px;
+    top: 0px;
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 0px;
+  }
 }

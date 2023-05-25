@@ -2,9 +2,53 @@
   color: #fff;
 }
 .container {
-  position: absolute;
-  left: -600px;
+  position: relative;
 }
 .content {
   position: relative;
+  margin-top: 75%;
+}
+@media (min-width: 576px) {
+  /* Phones*/
+  .content {
+    position: relative;
+    margin-top: 75%;
+  }
+  .container {
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  /* tablets*/
+  .content {
+    position: relative;
+    margin-top: 5%;
+  }
+  .container {
+    position: relative;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Laptops*/
+  .content {
+    position: relative;
+    margin-top: 2%;
+  }
+  .container {
+    position: relative;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* desktop*/
+  .content {
+    position: relative;
+    margin-top: 0%;
+  }
+  .container {
+    position: absolute;
+    left: -600px;
+  }
 }

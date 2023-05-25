@@ -9,7 +9,7 @@ function About() {
       <div className="line"></div>
       <div>&nbsp;</div>
       <div className="wrapper">
-        <div class="d-flex justify-content-center">
+        <div className="d-flex justify-content-center">
           <p id="aboutMe" className="text-center fs-5">
             I am a growing software engineer who loves to design and build
             software applications. I thoroughly enjoy the creative processes
@@ -22,10 +22,7 @@ function About() {
           </p>
         </div>
       </div>
-      <div>&nbsp;</div>
-      <div>&nbsp;</div>
-      <div>&nbsp;</div>
-      <div>&nbsp;</div>
+
       <div>&nbsp;</div>
       <div>&nbsp;</div>
       <div>&nbsp;</div>

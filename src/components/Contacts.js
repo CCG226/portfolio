@@ -20,7 +20,7 @@ function Contacts() {
       </ul>
       <div className="d-flex justify-content-evenly">
         <a href="https://github.com/CCG226" target="_blank">
-          <img class="icon" src={githubIcon} alt="githun icon" />
+          <img class="icon" src={githubIcon} alt="github icon" />
         </a>
       </div>
     </div>

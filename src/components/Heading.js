@@ -5,7 +5,9 @@ function Heading() {
   return (
     <div>
       <div className="display-1 fw-bold">Connor Gilmore,</div>
-      <div className="display-4 fw-bold">An Entry-Level Software Engineer</div>
+      <div id="career" className="fw-bold">
+        An Entry-Level Software Engineer
+      </div>
       <div>&nbsp;</div>
       <div className="line"></div>
       <div>&nbsp;</div>

@@ -16,7 +16,7 @@ import Contacts from "./components/Contacts";
 function App() {
   const [isMobile, setIsMobile] = useState(false);
   const handleResize = () => {
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 1300) {
       setIsMobile(true);
     }
   };

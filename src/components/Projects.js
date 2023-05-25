@@ -29,7 +29,7 @@ function Projects() {
         <ProjectSelector func={(param) => swapProjectCard(param)} />
       </div>
 
-      <Card Desc={CardDesc} Image={CardImg} Link={CardLink} />
+      {<Card Desc={CardDesc} Image={CardImg} Link={CardLink} />}
     </div>
   );
 }
