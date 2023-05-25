@@ -7,8 +7,11 @@ import MobileNavBar from "./components/MobileNavBar";
 import Heading from "./components/Heading";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Education from "./components/Education";
 import React from "react";
 import { useState, useEffect } from "react";
+import Experience from "./components/Experience";
+import Contacts from "./components/Contacts";
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
@@ -30,16 +33,24 @@ function App() {
   return (
     <div className="App">
       {isMobile ? <MobileNavBar /> : <SideNavBar />}
-      <header className="App-header">
+      <section className="App-header">
         <Heading />
-      </header>
+      </section>
       <section id="about">
         <About />
       </section>
       <section id="projects">
         <Projects />
       </section>
-      <section id="education"></section>
+      <section id="education">
+        <Education />
+      </section>
+      <section id="experience">
+        <Experience />
+      </section>
+      <section id="contacts">
+        <Contacts />
+      </section>
     </div>
   );
 }

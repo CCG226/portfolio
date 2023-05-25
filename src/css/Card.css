@@ -8,13 +8,26 @@
   animation: 10s rotate linear infinite;
   border-radius: 20px !important;
 }
-.card-img-top {
-  display: inline !important;
+.card-img-top:hover {
+  box-shadow: 0 0 10px 1px #12c2e9;
 }
-.card-body {
-  display: inline !important;
+.card:hover {
+}
+.project {
+  position: relative;
+}
+.desc {
+  position: absolute;
+  width: 100%;
+  right: -650px;
+  top: 0px;
+  font-size: 20px;
+  line-height: 2;
 }
 .card-text {
   width: 100%;
-  margin-right: 30%;
+  color: gray;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

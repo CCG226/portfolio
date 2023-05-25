@@ -24,27 +24,31 @@ function buildProjectsList() {
 
   arrayOfProjects.push({
     id: 0,
-    Desc: "JournalWit is a Full-Stack Web App (JavaScript/C#) for daily journaling. It includes a built-in calendar to track journaling progress and an AI assistance mode for crafting entries based on key details from the user's day. Users can also manually write their own entries. JournalWit also creates a readable and interactable journal book the user can read as well as offering various other features to enhance the journaling experience.",
+    desc: "JournalWit is a Full-Stack Web App (JavaScript/C#) for daily journaling. It includes a built-in calendar to track journaling progress and an AI assistance mode for crafting entries based on key details from the user's day. Users can also manually write their own entries. JournalWit also creates a readable and interactable journal book the user can read as well as offering various other features to enhance the journaling experience.",
     image: journalWitLogo,
+    link: "https://journalwit.com/",
   });
   arrayOfProjects.push({
     id: 1,
-    Desc:
+    desc:
       "GradeHelp is a Full-Stack Web App (Javascript/C#) for educators and students " +
       "to use to track, manage, and calculate grade reports For educators, they manage their classes, the students in those classes, and each individual students grade report. On the student side, a student can create a personal student profile to manage their semster term grades, the classes apart of those semesters as well as each individual grade in each class.",
     image: gradeHelpLogo,
+    link: "http://cown877-001-site1.itempurl.com/",
   });
   arrayOfProjects.push({
     id: 2,
-    Desc:
+    desc:
       "MyAiAid is a Full-Stack Web Application (Javascript/C#) is a website that provides a wide array of " +
-      " Ai tools supported by ChatGpT to generate specific styles of text generated content.",
+      " Ai tools supported by ChatGPT to generate specific styles of text generated content.",
     image: myAiAidLogo,
+    link: "https://myaiaid.com/",
   });
   arrayOfProjects.push({
     id: 3,
-    Desc: "My Portfolio is a Web Application (React) used to detail my personal projects, education, work experience and contact info.",
+    desc: "My Portfolio is a Web Application (React) used to detail my personal projects, education, work experience and contact info.",
     image: portfolioLogo,
+    link: "https://example.com/",
   });
 
   return arrayOfProjects;

@@ -1,0 +1,13 @@
+.msg {
+  color: gray;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+li {
+  list-style: none;
+}
+.test {
+  color: #672078;
+  font-size: 1.8em !important;
+}

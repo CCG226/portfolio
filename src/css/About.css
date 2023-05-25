@@ -1,26 +1,19 @@
 * {
   color: #fff;
 }
-.wrapperLEFT {
+#aboutMe {
   background-color: #121212;
   padding: 15px;
   width: 50%;
+
   line-height: 2;
   border: 4px solid;
   border-radius: 10% !important;
   --angle: 0deg;
-  margin-left: 20%;
+
   border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #672078) 1;
   animation: 10s rotate linear infinite;
 }
-.wrapperRIGHT {
-  background-color: #121212;
-  padding: 15px;
-  width: 50%;
-  border: 4px solid;
-  border-radius: 10px;
-  --angle: 0deg;
-  margin-left: 55%;
-  border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #672078) 1;
-  animation: 10s rotate linear infinite;
+.seperator {
+  color: #c471ed;
 }

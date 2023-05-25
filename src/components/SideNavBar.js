@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../css/SideNav.css";
-import Logo from "./logo";
+import Logo from "./Logo.js";
 function SideNavBar() {
   return (
     <nav className="collapse d-lg-block sidebar collapse">

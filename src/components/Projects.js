@@ -6,14 +6,16 @@ import Card from "./Card";
 import { FindProject } from "../content/ProjectBuilder";
 import { useState } from "react";
 function Projects() {
-  const [CardDesc, setCardDesc] = useState(FindProject(0).Desc);
+  const [CardDesc, setCardDesc] = useState(FindProject(0).desc);
   const [CardImg, setCardImg] = useState(FindProject(0).image);
+  const [CardLink, setCardLink] = useState(FindProject(0).link);
   const swapProjectCard = (i) => {
     console.log(i);
     const selectedProject = FindProject(i);
     console.log(selectedProject);
-    setCardDesc(selectedProject.Desc);
+    setCardDesc(selectedProject.desc);
     setCardImg(selectedProject.image);
+    setCardLink(selectedProject.link);
   };
   return (
     <div className="content">
@@ -27,7 +29,7 @@ function Projects() {
         <ProjectSelector func={(param) => swapProjectCard(param)} />
       </div>
 
-      <Card Desc={CardDesc} Image={CardImg} />
+      <Card Desc={CardDesc} Image={CardImg} Link={CardLink} />
     </div>
   );
 }
