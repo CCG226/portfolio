@@ -3,7 +3,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../css/Experience.css";
 function Experience() {
   return (
-    <div>
+    <div className="expPage">
       <div className="display-3 fw-bold">Experience</div>
       <div>&nbsp;</div>
       <div className="line"></div>

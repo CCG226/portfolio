@@ -4,7 +4,7 @@ import "../css/Contacts.css";
 import githubIcon from "../Images/github.png";
 function Contacts() {
   return (
-    <div>
+    <div className="contactPage">
       <div className="display-3 fw-bold">Contacts</div>
       <div>&nbsp;</div>
       <div className="line"></div>

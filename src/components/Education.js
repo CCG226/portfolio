@@ -3,7 +3,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../css/Education.css";
 function Education() {
   return (
-    <div>
+    <div className="eduPage">
       <div className="display-3 fw-bold">Education</div>
       <div>&nbsp;</div>
       <div className="line"></div>

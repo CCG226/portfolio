@@ -51,6 +51,7 @@ function App() {
       <section id="contacts">
         <Contacts />
       </section>
+      <section id="end"></section>
     </div>
   );
 }

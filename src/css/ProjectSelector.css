@@ -66,6 +66,15 @@
     width: 120%;
   }
 }
+@media (min-width: 1300px) {
+  /* Laptops*/
+  .unselected {
+    width: 190%;
+  }
+  .selected {
+    width: 190%;
+  }
+}
 
 @media (min-width: 1400px) {
   /* desktop*/

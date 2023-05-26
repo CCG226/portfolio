@@ -6,13 +6,13 @@
 }
 .content {
   position: relative;
-  margin-top: 75%;
+  margin-top: 85%;
 }
 @media (min-width: 576px) {
   /* Phones*/
   .content {
     position: relative;
-    margin-top: 75%;
+    margin-top: 85%;
   }
   .container {
     position: relative;
@@ -23,18 +23,28 @@
   /* tablets*/
   .content {
     position: relative;
-    margin-top: 5%;
+    margin-top: 85%;
   }
   .container {
     position: relative;
   }
 }
 
+@media (min-width: 900px) {
+  /* Laptops*/
+  .content {
+    position: relative;
+    margin-top: 60%;
+  }
+  .container {
+    position: relative;
+  }
+}
 @media (min-width: 1200px) {
   /* Laptops*/
   .content {
     position: relative;
-    margin-top: 2%;
+    margin-top: 50%;
   }
   .container {
     position: relative;

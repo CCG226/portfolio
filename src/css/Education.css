@@ -11,3 +11,33 @@ li {
   color: #672078;
   font-size: 1.8em !important;
 }
+.eduPage {
+  margin-top: 85%;
+}
+@media (min-width: 576px) {
+  /* Phones*/
+  .eduPage {
+    margin-top: 85%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* tablets*/
+  .eduPage {
+    margin-top: 110%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Laptops*/
+  .eduPage {
+    margin-top: 70%;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* desktop*/
+  .eduPage {
+    margin-top: 0%;
+  }
+}
