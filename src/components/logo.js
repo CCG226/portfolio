@@ -1,12 +1,12 @@
-import logo from "../Images/portfolioLogo.png";
-function Logo({ height }) {
+import logoImg from "../Images/portfolioLogo.png";
+function logo({ height }) {
   const styles = {
     height: height,
   };
   return (
     <div>
-      <img src={logo} style={styles} alt="logo" />
+      <img src={logoImg} style={styles} alt="logo" />
     </div>
   );
 }
-export default Logo;
+export default logo;

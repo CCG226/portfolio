@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../css/MobileNav.css";
-import Logo from "./Logo";
+import Logo from "./logo";
 function MobileNavBar() {
   return (
     <nav className="navbar navbar-expand-lg">
