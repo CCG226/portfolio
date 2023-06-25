@@ -67,8 +67,8 @@
 @media (min-width: 1200px) {
   /* Laptops*/
   .card {
-    width: 20em;
-    height: 20em;
+    width: 18em;
+    height: 18em;
     margin-left: 50%;
   }
   .desc {
@@ -84,8 +84,8 @@
 @media (min-width: 1400px) {
   /* desktop*/
   .card {
-    width: 22em;
-    height: 22em;
+    width: 18em;
+    height: 18em;
     margin-left: 70%;
   }
   .desc {

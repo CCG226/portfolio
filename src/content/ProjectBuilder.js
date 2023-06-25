@@ -42,13 +42,13 @@ function buildProjectsList() {
       "MyAiAid is a Full-Stack Web Application (Javascript/C#) is a website that provides a wide array of " +
       " Ai tools supported by ChatGPT to generate specific styles of text generated content.",
     image: myAiAidLogo,
-    link: "https://myaiaid.com/",
+    link: "http://cown521-001-site1.ctempurl.com/",
   });
   arrayOfProjects.push({
     id: 3,
     desc: "My Portfolio is a Web Application (React) used to detail my personal projects, education, work experience and contact info.",
     image: portfolioLogo,
-    link: "https://example.com/",
+    link: "https://connorsportfolio.net/",
   });
 
   return arrayOfProjects;
