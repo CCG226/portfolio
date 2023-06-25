@@ -60,28 +60,28 @@
 @media (min-width: 1200px) {
   /* Laptops*/
   .unselected {
-    width: 120%;
+    width: 110%;
   }
   .selected {
-    width: 120%;
+    width: 110%;
   }
 }
 @media (min-width: 1300px) {
   /* Laptops*/
   .unselected {
-    width: 190%;
+    width: 120%;
   }
   .selected {
-    width: 190%;
+    width: 120%;
   }
 }
 
 @media (min-width: 1400px) {
   /* desktop*/
   .unselected {
-    width: 225%;
+    width: 150%;
   }
   .selected {
-    width: 225%;
+    width: 150%;
   }
 }
