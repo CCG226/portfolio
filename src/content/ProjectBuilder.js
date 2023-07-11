@@ -24,7 +24,7 @@ function buildProjectsList() {
 
   arrayOfProjects.push({
     id: 0,
-    desc: "JournalWit is a Full-Stack Web App (JavaScript/C#) for daily journaling. It includes a built-in calendar to track journaling progress and an AI assistance mode for crafting entries based on key details from the user's day. Users can also manually write their own entries. JournalWit also creates a readable and interactable journal book the user can read as well as offering various other features to enhance the journaling experience.",
+    desc: "JournalWit is a Full-Stack Web App (JavaScript/C#) to enhance the daily journaling experience. It includes a built-in calendar, an AI assistance mode for crafting entries based on key details from the user's day, a default manual mode, mood tracking, and a interactable journal book the user can read.",
     image: journalWitLogo,
     link: "https://journalwit.com/",
   });
@@ -32,7 +32,7 @@ function buildProjectsList() {
     id: 1,
     desc:
       "GradeHelp is a Full-Stack Web App (Javascript/C#) for educators and students " +
-      "to use to track, manage, and calculate grade reports For educators, they manage their classes, the students in those classes, and each individual students grade report. On the student side, a student can create a personal student profile to manage their semster term grades, the classes apart of those semesters as well as each individual grade in each class.",
+      "to use to track, manage, and calculate grade reports for both students and educators.",
     image: gradeHelpLogo,
     link: "http://cown877-001-site1.itempurl.com/",
   });

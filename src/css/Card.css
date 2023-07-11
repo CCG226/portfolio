@@ -6,7 +6,6 @@
   --angle: 0deg;
   border-image: linear-gradient(var(--angle), #12c2e9, #c471ed, #672078) 1;
   animation: 10s rotate linear infinite;
-  border-radius: 20px !important;
 }
 .card-img-top:hover {
   box-shadow: 0 0 10px 1px #12c2e9;
