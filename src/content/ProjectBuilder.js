@@ -34,7 +34,7 @@ function buildProjectsList() {
       "GradeHelp is a Full-Stack Web App (Javascript/C#) for educators and students " +
       "to use to track, manage, and calculate grade reports for both students and educators.",
     image: gradeHelpLogo,
-    link: "http://cown877-001-site1.itempurl.com/",
+    link: "http://cown521-001-site3.ctempurl.com/",
   });
   arrayOfProjects.push({
     id: 2,
