@@ -53,7 +53,7 @@ function buildProjectsList() {
   });
   arrayOfProjects.push({
     id: 4,
-    desc: "Nuget libray for weighted random character generation. The odds of how likely a character is to be generated is based on weighted percent values. With this library, you can effortlessly generate random characters while fine-tuning the chance of specific characters appearing.",
+    desc: "Nuget library for weighted random character generation. The odds of how likely a character is to be generated is based on weighted percent values. With this library, you can effortlessly generate random characters while fine-tuning the chance of specific characters appearing.",
     image: GenFreqLogo,
     link: "https://www.nuget.org/packages/GenLetterByFreqNet/",
   });
