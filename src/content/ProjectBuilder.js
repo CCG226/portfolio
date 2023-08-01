@@ -2,6 +2,7 @@ import portfolioLogo from "../Images/portfolioLogo.png";
 import journalWitLogo from "../Images/journalWitLogo.png";
 import gradeHelpLogo from "../Images/gradeHelpLogo.png";
 import myAiAidLogo from "../Images/myAiAidLogo.png";
+import GenFreqLogo from "../Images/nuget.png";
 export function FindProject(index) {
   const ProjectsList = buildProjectsList();
   if (index < 0) {
@@ -32,7 +33,7 @@ function buildProjectsList() {
     id: 1,
     desc:
       "GradeHelp is a Full-Stack Web App (Javascript/C#) for educators and students " +
-      "to use to track, manage, and calculate grade reports for both students and educators.",
+      "to use to track, manage, and calculate grade reports. Designed for both students and educators.",
     image: gradeHelpLogo,
     link: "http://cown521-001-site3.ctempurl.com/",
   });
@@ -50,6 +51,11 @@ function buildProjectsList() {
     image: portfolioLogo,
     link: "https://connorsportfolio.net/",
   });
-
+  arrayOfProjects.push({
+    id: 4,
+    desc: "Nuget libray for weighted random character generation. The odds of how likely a character is to be generated is based on weighted percent values. With this library, you can effortlessly generate random characters while fine-tuning the chance of specific characters appearing.",
+    image: GenFreqLogo,
+    link: "https://www.nuget.org/packages/GenLetterByFreqNet/",
+  });
   return arrayOfProjects;
 }

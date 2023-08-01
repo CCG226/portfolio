@@ -29,7 +29,7 @@ function About() {
       <div>&nbsp;</div>
       <div className="wrapperRIGHT">
         <p id="mySkills" className="text-center fs-2">
-          Bootstrap <div className="d-inline seperator">|</div> Javascript{" "}
+          XAML <div className="d-inline seperator">|</div> Javascript{" "}
           <div className="d-inline seperator">|</div> CSS{" "}
           <div className="d-inline seperator">|</div> React{" "}
           <div className="d-inline seperator">|</div> SQL{" "}

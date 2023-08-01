@@ -76,6 +76,22 @@ function ProjectSelector({ func }) {
           person_pin
         </span>
       </button>
+      <button
+        className={selectedButton === "4" ? "selected" : "unselected"}
+        type="button"
+        onClick={() => handleClick("4")}
+      >
+        GenLetterByFreqNet (2023)
+        <span
+          className={
+            selectedButton === "4"
+              ? "material-symbols-outlined highlight"
+              : "material-symbols-outlined"
+          }
+        >
+          book
+        </span>
+      </button>
     </div>
   );
 }
