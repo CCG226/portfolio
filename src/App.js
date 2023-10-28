@@ -12,7 +12,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Experience from "./components/Experience";
 import Contacts from "./components/Contacts";
-
+import Other from "./components/Other";
 function App() {
   const [isMobile, setIsMobile] = useState(false);
   const handleResize = () => {
@@ -48,9 +48,13 @@ function App() {
       <section id="experience">
         <Experience />
       </section>
+      <section id="other">
+        <Other />
+      </section>
       <section id="contacts">
         <Contacts />
       </section>
+
       <section id="end"></section>
     </div>
   );

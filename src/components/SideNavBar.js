@@ -41,7 +41,13 @@ function SideNavBar() {
           >
             Experience
           </a>
-
+          <a
+            id="tab"
+            className="fs-4 fw-bold text-decoration-none mb-3"
+            href="#other"
+          >
+            Other
+          </a>
           <a
             id="tab"
             className="fs-4 fw-bold text-decoration-none mb-3"

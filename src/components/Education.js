@@ -11,13 +11,13 @@ function Education() {
       <ul className="text-center fs-5">
         <li className="fs-3 text-start">
           <span class="material-symbols-outlined test">workspace_premium</span>{" "}
-          BS in Computer Science (May 2024)
+          BS in Computer Science (Dec 2024)
           <div className="text-center msg">*In Progress</div>
         </li>
         <div>&nbsp;</div>
         <li className="fs-3 text-start">
           <span class="material-symbols-outlined test">workspace_premium</span>{" "}
-          Certificate in Internet and Web (May 2024)
+          Certificate in Internet and Web (Dec 2024)
           <div className="text-center msg">*In Progress</div>
         </li>
       </ul>

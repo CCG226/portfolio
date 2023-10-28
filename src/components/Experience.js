@@ -8,9 +8,7 @@ function Experience() {
       <div>&nbsp;</div>
       <div className="line"></div>
       <div>&nbsp;</div>
-      <div className="fs-4">
-        No prior work experience in software engineering
-      </div>
+      <div className="fs-4">Looking for internship experience!</div>
       <ul className="text-center fs-5"></ul>
     </div>
   );
