@@ -2,26 +2,26 @@
   height: 3em;
 }
 .contactPage {
-  margin-top: 80%;
+  margin-top: 5%;
 }
 @media (min-width: 576px) {
   /* Phones*/
   .contactPage {
-    margin-top: 80%;
+    margin-top: 5%;
   }
 }
 
 @media (min-width: 768px) {
   /* tablets*/
   .contactPage {
-    margin-top: 110%;
+    margin-top: 0%;
   }
 }
 
 @media (min-width: 1200px) {
   /* Laptops*/
   .contactPage {
-    margin-top: 30%;
+    margin-top: 0%;
   }
 }
 

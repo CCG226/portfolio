@@ -56,14 +56,22 @@
     width: 100%;
   }
 }
-
+@media (min-width: 900px) {
+  /* Laptops*/
+  .unselected {
+    width: 80%;
+  }
+  .selected {
+    width: 80%;
+  }
+}
 @media (min-width: 1200px) {
   /* Laptops*/
   .unselected {
-    width: 110%;
+    width: 80%;
   }
   .selected {
-    width: 110%;
+    width: 80%;
   }
 }
 @media (min-width: 1300px) {

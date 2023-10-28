@@ -12,26 +12,32 @@ li {
   font-size: 1.8em !important;
 }
 .eduPage {
-  margin-top: 85%;
+  margin-top: 5%;
 }
 @media (min-width: 576px) {
   /* Phones*/
   .eduPage {
-    margin-top: 85%;
+    margin-top: 5%;
   }
 }
 
 @media (min-width: 768px) {
   /* tablets*/
   .eduPage {
-    margin-top: 70%;
+    margin-top: 0%;
+  }
+}
+@media (min-width: 900px) {
+  /* Laptops*/
+  .eduPage {
+    margin-top: 60%;
   }
 }
 
 @media (min-width: 1200px) {
   /* Laptops*/
   .eduPage {
-    margin-top: 70%;
+    margin-top: 30%;
   }
 }
 

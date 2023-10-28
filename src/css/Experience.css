@@ -1,24 +1,30 @@
 .expPage {
-  margin-top: 80%;
+  margin-top: 5%;
 }
 @media (min-width: 576px) {
   /* Phones*/
   .expPage {
-    margin-top: 80%;
+    margin-top: 5%;
   }
 }
 
 @media (min-width: 768px) {
   /* tablets*/
   .expPage {
-    margin-top: 110%;
+    margin-top: 0%;
+  }
+}
+@media (min-width: 900px) {
+  /* Laptops*/
+  .expPage {
+    margin-top: 40%;
   }
 }
 
 @media (min-width: 1200px) {
   /* Laptops*/
   .expPage {
-    margin-top: 70%;
+    margin-top: 40%;
   }
 }
 

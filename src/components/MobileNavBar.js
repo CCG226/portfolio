@@ -53,6 +53,13 @@ function MobileNavBar() {
             <a
               id="tab"
               className="nav-link fs-4 fw-bold  text-light"
+              href="#other"
+            >
+              Other
+            </a>
+            <a
+              id="tab"
+              className="nav-link fs-4 fw-bold  text-light"
               href="#contacts"
             >
               Contact & Info

@@ -57,12 +57,28 @@
     position: relative;
     width: 90%;
     margin-top: 10%;
-    margin-left: 0%;
+    margin-left: 4%;
     font-size: 20px;
     line-height: 1.5;
   }
 }
 
+@media (min-width: 900px) {
+  /* Laptops*/
+  .card {
+    width: 18em;
+    height: 18em;
+    margin-left: 50%;
+  }
+  .desc {
+    position: relative;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 3%;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
 @media (min-width: 1200px) {
   /* Laptops*/
   .card {
@@ -74,7 +90,7 @@
     position: relative;
     width: 90%;
     margin-top: 10%;
-    margin-left: 0%;
+    margin-left: 3%;
     font-size: 20px;
     line-height: 1.5;
   }
