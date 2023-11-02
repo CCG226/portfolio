@@ -11,7 +11,11 @@ function Contacts() {
       <div>&nbsp;</div>
       <ul>
         <li className="fs-5 text-start">
-          <div className="fs-3 d-inline">Email:&nbsp;</div> cown877@gmail.com
+          <div className="fs-3 d-inline">
+            Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
+          </div>{" "}
+          cown877@gmail.com
         </li>
         <li className="fs-5 text-start">
           {" "}

@@ -8,7 +8,7 @@ function Experience() {
       <div>&nbsp;</div>
       <div className="line"></div>
       <div>&nbsp;</div>
-      <div className="fs-4">Looking for internship experience!</div>
+      <i className="fs-4">Looking for internship experience!</i>
       <ul className="text-center fs-5"></ul>
     </div>
   );
