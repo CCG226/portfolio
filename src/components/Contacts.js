@@ -13,7 +13,6 @@ function Contacts() {
         <li className="fs-5 text-start">
           <div className="fs-3 d-inline">
             Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
           </div>{" "}
           cown877@gmail.com
         </li>
