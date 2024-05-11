@@ -33,7 +33,7 @@ function About() {
           <div className="d-inline seperator">|</div> CSS{" "}
           <div className="d-inline seperator">|</div> React{" "}
           <div className="d-inline seperator">|</div> SQL{" "}
-          <div className="d-inline seperator">|</div> Java
+          <div className="d-inline seperator">|</div> Java{" "}
           <div className="d-inline seperator">|</div> C#{" "}
           <div className="d-inline seperator">|</div> C++
         </p>
