@@ -12,9 +12,32 @@ function Other() {
       <ul className="text-center fs-5">
         <li>- TEALS Volunteer</li>
         <br />
-        <li>- NET User Group Member</li>
+        <li>
+          - 1st Place STL | Hack (UMSL/St.Louis Hackathon)
+          <ul>
+            <li>
+              Project:&nbsp;
+              <a
+                target="_blank"
+                href="https://github.com/CCG226/Dollar-Trail-Adventures"
+              >
+                Dollar Trail Adventures
+              </a>
+            </li>
+          </ul>
+        </li>
         <br />
-        <li>- CS Computing Club Member</li>
+        <li>
+          - 2nd Place TigerHacks (University Of Missouri Hackathon)
+          <ul>
+            <li>
+              Project:&nbsp;
+              <a target="_blank" href="https://devpost.com/software/replay">
+                Replay
+              </a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </div>
   );

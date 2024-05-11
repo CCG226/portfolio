@@ -9,7 +9,7 @@ function Experience() {
       <div className="line"></div>
       <div>&nbsp;</div>
       <i className="fs-4">
-        COMING SOON! Software Engineering Internship At MiTek (Summer 2024)
+        - Software Engineering Internship At MiTek (Summer 2024)
       </i>
       <ul className="text-center fs-5"></ul>
     </div>
