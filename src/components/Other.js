@@ -10,7 +10,7 @@ function Other() {
       <div>&nbsp;</div>
 
       <ul className="text-center fs-5">
-        <li>- TEALS Volunteer</li>
+        <li>- 2024 TEALS Volunteer</li>
         <br />
         <li>
           - 1st Place STL | Hack (UMSL/St.Louis Hackathon)
