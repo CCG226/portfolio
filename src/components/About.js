@@ -23,9 +23,9 @@ function About() {
       <div>&nbsp;</div>
       <div>&nbsp;</div>
       <div>&nbsp;</div>
-      <div className="display-3 fw-bold">Skills</div>
+      <div className="display-5 fw-bold">Skills</div>
       <div>&nbsp;</div>
-      <div className="line"></div>
+
       <div>&nbsp;</div>
       <div className="wrapperRIGHT">
         <p id="mySkills" className="text-center fs-2">
