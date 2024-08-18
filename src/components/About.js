@@ -11,10 +11,9 @@ function About() {
       <div className="wrapper">
         <div className="d-flex justify-content-center">
           <p id="aboutMe" className="text-center fs-5">
-            I am programming enthusiast who simply enjoys building software
-            applications and brainstorming solutions to problems. I'm proficient
-            with most common programming languages, but I specialize in building
-            applications in .NET.
+            I am a software enthusiast who simply enjoys creating applications,
+            brainstorming solutions to problems, learning new things, and
+            embracing challenges!
           </p>
         </div>
       </div>
