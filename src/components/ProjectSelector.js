@@ -49,7 +49,7 @@ function ProjectSelector({ func }) {
         type="button"
         onClick={() => handleClick("2")}
       >
-        MyAiAid (2023)
+        Word Game (2024)
         <span
           className={
             selectedButton === "2"

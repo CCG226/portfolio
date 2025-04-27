@@ -1,7 +1,7 @@
 import portfolioLogo from "../Images/portfolioLogo.png";
 import journalWitLogo from "../Images/journalWitLogo.png";
 import gradeHelpLogo from "../Images/gradeHelpLogo.png";
-import myAiAidLogo from "../Images/myAiAidLogo.png";
+import wordGameLogo from "../Images/wordgameLogo.png";
 import GenFreqLogo from "../Images/nuget.png";
 export function FindProject(index) {
   const ProjectsList = buildProjectsList();
@@ -40,10 +40,10 @@ function buildProjectsList() {
   arrayOfProjects.push({
     id: 2,
     desc:
-      "MyAiAid is a Full-Stack Web App (Javascript/C#) is a website that provides a wide array of " +
-      " Ai tools supported by ChatGPT to generate different types of text generated content.",
-    image: myAiAidLogo,
-    link: "http://cown521-001-site1.ctempurl.com/",
+      "Word Game (React/C#) is a fun and engaging word puzzle game that combines aspects of word search and tetris. " +
+      " The goal is to clear as many letters as possible and achieve the highest score. Currently only singplayer mode is available",
+    image: wordGameLogo,
+    link: "https://blue-sea-090cff910.6.azurestaticapps.net/",
   });
   arrayOfProjects.push({
     id: 3,

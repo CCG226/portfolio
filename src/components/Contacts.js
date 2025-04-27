@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../css/Contacts.css";
-import githubIcon from "../Images/github.png";
 function Contacts() {
   return (
     <div className="contactPage">
