@@ -49,7 +49,7 @@ function ProjectSelector({ func }) {
         type="button"
         onClick={() => handleClick("2")}
       >
-        Word Game (2024)
+        Word Game (2025)
         <span
           className={
             selectedButton === "2"
@@ -81,7 +81,7 @@ function ProjectSelector({ func }) {
         type="button"
         onClick={() => handleClick("4")}
       >
-        GenLetterByFreqNet (2023)
+        GenLetterByFreqNet (2024)
         <span
           className={
             selectedButton === "4"
